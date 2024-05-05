@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 400;
+    color: white;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.gymbro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.gymbro img {
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    object-position: 140%;
+
+}
+
+.box {
+    height: 60vh;
+    width: 100px;
+    position: fixed;
+}
+
+.box1 {
+    height: 100vh;
+    width: 30vw;
+    background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+    left: 530px;
+}
+
+.box2 {
+    height: 38vh;
+    width: 61vw;
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+    right: 0px;
+    bottom: 0px;
+}
+
+.box3 {
+    height: 100vh;
+    width: 15vw;
+    background: linear-gradient(to left, rgb(0, 0, 0), transparent);
+    right: 0;
+}
+
+.head {
+    width: 80vw;
+    margin: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 10;
+
+}
+
+.logo {
+    padding-top: 10px;
+    font-size: 34px;
+    font-family: "Bruno Ace SC", sans-serif;
+}
+
+.logo span:nth-child(2) {
+    color: yellow;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.dit {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    width: 668px;
+    height: 270px;
+    position: absolute;
+    object-fit: cover;
+    right: 35%;
+    bottom:150px;
+    font-size: 64px;
+}
+.dit button{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    background-color: #FAFF00;
+    width: 177px;
+    height: 52px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+}
+.gap{
+    position: fixed; /* Use fixed positioning */
+    bottom: 100vw; /* Position at the bottom of the viewport */
+    width: 100vw;
+    height: 20vw;
+    background-color: red;
+}
