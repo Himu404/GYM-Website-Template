@@ -3,10 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    /* font-family: "Poppins", sans-serif; */
-    font-weight: 400;
-    color: white;
-
 }
 
 :root {
@@ -16,6 +12,8 @@
 body {
     background-color: black;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    color: white;
 
 }
 
@@ -32,15 +30,12 @@ body {
     width: 100%;
     object-fit: none;
     object-position: 140%;
-    border: var(--border);
-
 }
 
 .box {
     height: 60vh;
     width: 100px;
     position: absolute;
-    border: var(--border);
 }
 
 .box1 {
@@ -67,7 +62,7 @@ body {
 
 .head {
     width: 80vw;
-    margin: 0 10vw;
+    margin: 0 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +70,6 @@ body {
     position: absolute;
     background-color: transparent;
     z-index: 3;
-    border: var(--border);
 
 }
 
@@ -98,7 +92,7 @@ ul {
 
 ul li {
     list-style: none;
-    font-size: 12px;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
 }
@@ -115,7 +109,7 @@ ul li {
     font-size: 64px;
 }
 
-.dit button {
+.button {
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
     background-color: #FAFF00;
@@ -130,12 +124,10 @@ ul li {
 .gap {
     width: 100vw;
     height: 7vw;
-    background-color: red;
-
 }
 
 .home {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .reason {
@@ -144,38 +136,144 @@ ul li {
     grid-template-columns: 1fr 1fr;
     column-gap: 13vw;
     align-items: center;
-    border: solid green;
 }
 
 .kl {
     height: 100px;
-    border: var(--border);
     display: flex;
     margin: 20px 0;
 }
 
+.kl3 :first-child {}
+
 .kl:nth-child(odd) {
-    margin-left: 13vw;
-}
-.kl:nth-child(even) {
-    margin-right: 13vw;
+    margin-left: 160px;
 }
 
-.kl1 {font-family: "Poppins", sans-serif;
+.kl:nth-child(even) {
+    margin-right: 160px;
+}
+
+.kl1 {
+    font-family: "Poppins", sans-serif;
     font-size: 30px;
     width: 74vw;
     align-items: center;
 }
-.kl1 h1{
+
+.kl1 h1 {
     font-weight: bolder;
 }
+
 .kl3 div {
     margin-left: 25px;
 }
+
 .kl3 h3 {
     padding: 2px;
     font-weight: bolder;
 }
+
 .kl3 p {
-font-size: 12px;
+    font-size: 12px;
+}
+
+.excp {
+    padding: 0 17.8px;
+}
+
+.excp1 {
+    padding: 0 7.5px;
+}
+
+section>h1 {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.package {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 80px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 80px;
+}
+
+.card {
+    height: 394px;
+    width: 275px;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.line {
+    background-color: #000000;
+    height: 3px;
+}
+
+.card-header {
+    height: 100px;
+}
+
+.card-header>h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.card-header>h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 15px;
+}
+
+.info {
+    margin-top: 15px;
+    height: 225px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.details :nth-child(2) {
+    font-size: 15px;
+}
+
+.card button {
+    width: 107px;
+    height: 30px;
+
+}
+
+.card-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 10px;
+}
+
+/* 1st colum */
+.package> :nth-child(1),
+.package> :nth-child(4) {
+    justify-self: end ;
+
+}
+
+/* 2nd colum */
+.package> :nth-child(2),
+.package> :nth-child(5) {
+    justify-self: center;
 }
