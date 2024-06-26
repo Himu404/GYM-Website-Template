@@ -29,19 +29,6 @@ open index.html
 ### Project Structure
 The project directory contains the following files and folders:
 
-gym-website-template/
-├── index.html
-├── styles.css
-├── images/
-│   ├── logo.png
-│   ├── header-bg.jpg
-│   ├── service1.jpg
-│   ├── service2.jpg
-│   ├── trainer1.jpg
-│   ├── trainer2.jpg
-│   └── trainer3.jpg
-└── README.md
-
 - index.html: The main HTML file that contains the structure of the webpage.
 - styles.css: The CSS file that contains styles for the webpage.
 - images/: A directory containing image assets used in the template.
