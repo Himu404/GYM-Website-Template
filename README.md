@@ -9,7 +9,6 @@ A modern and clean website template designed for a gym or fitness center. This t
 - [Project Structure](#project-structure)
 - [Customization](#customization)
 - [To-Do](#to-do)
-- [License](#license)
 
 ## Project Description
 This project is a static website template for a gym or fitness center. It showcases the gym's facilities, services, trainers, and provides contact information. The design is modern, clean, and user-friendly.
