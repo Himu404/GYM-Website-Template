@@ -18,9 +18,9 @@ This project is a static website template for a gym or fitness center. It showca
 To use this template, simply download or clone the repository and open the `index.html` file in your web browser.
 
 ### Clone the Repository
-```bash
 git clone https://github.com/Himu404/gym-website-template.git
 cd gym-website-template
+
 
 ### Usage
 After cloning the repository, navigate to the project directory and open index.html in your browser to view the template.
